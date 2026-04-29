@@ -1,0 +1,18 @@
+{
+  "name": "corridor-cursor-plugin",
+  "owner": {
+    "name": "Corridor Security",
+    "email": "support@corridor.dev"
+  },
+  "metadata": {
+    "description": "Marketplace for Corridor Cursor plugins",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "corridor",
+      "source": "./plugins/corridor",
+      "description": "Corridor Cursor plugin"
+    }
+  ]
+}

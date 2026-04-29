@@ -1,0 +1,14 @@
+{
+  "name": "corridor",
+  "description": "Corridor secures your AI-generated code. To get started, please create an API key at https://app.corridor.dev/settings and update your ~/.bashrc or ~/.zshrc to include the following: `export CORRIDOR_API_KEY=your-api-key`",
+  "version": "0.0.1",
+  "author": {
+    "name": "Corridor Security",
+    "email": "support@corridor.dev"
+  },
+  "homepage": "https://corridor.dev",
+  "repository": "https://github.com/CorridorSecurity/corridor-cursor-plugin",
+  "license": "",
+  "keywords": ["security", "compliance", "scanning", "mcp", "hooks", "code-review"],
+  "logo": "assets/logo.svg"
+}
