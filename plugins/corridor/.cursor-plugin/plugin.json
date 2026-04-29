@@ -1,6 +1,6 @@
 {
   "name": "corridor",
-  "description": "Corridor secures your AI-generated code. Corridor brings real-time security guardrails to your development workflow, automatically reviewing code as it's generated and guiding AI agents to write secure code from the start. In doing so, Corridor is the Agentic Coding Security Management (ACSM) platform for your IDE.",
+  "description": "Corridor secures your AI-generated code. Corridor brings real-time security guardrails to your development workflow, automatically reviewing code as it's generated and guiding AI agents to write secure code from the start. In doing so, Corridor is the Agentic Coding Security Management (ACSM) platform for your IDE.\n\nTo get started, please create an API key at https://app.corridor.dev/settings and update your ~/.bashrc or ~/.zshrc to include the following:\n\n```\nexport CORRIDOR_API_KEY=your-api-key\n```",
   "version": "0.0.1",
   "author": {
     "name": "Corridor Security",
