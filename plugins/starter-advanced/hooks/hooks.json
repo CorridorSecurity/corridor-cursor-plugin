@@ -1,5 +1,10 @@
 {
   "hooks": {
+    "sessionStart": [
+      {
+        "command": "./scripts/session-start.sh"
+      }
+    ],
     "afterFileEdit": [
       {
         "command": "./scripts/format-code.sh"
