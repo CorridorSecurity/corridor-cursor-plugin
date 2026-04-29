@@ -12,3 +12,5 @@
 *.log
 tmp/
 temp/
+
+.vscode

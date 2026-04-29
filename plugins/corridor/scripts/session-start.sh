@@ -1,8 +1,6 @@
 #!/bin/sh
 # Corridor sessionStart — install CLI if needed, run `corridor install` for Cursor.
 
-echo "hi" > /tmp/corridor.txt
-
 cat >/dev/null &
 P=$!; L="${HOME}/.corridor/tmp/cursor-plugin.log"; mkdir -p "${HOME}/.corridor/tmp"
 out() { echo "$1" >>"$L" 2>/dev/null; wait "$P" 2>/dev/null; printf '{}\n'; exit 0; }
