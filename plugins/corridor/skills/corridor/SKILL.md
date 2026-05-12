@@ -1,11 +1,6 @@
 ---
 name: corridor
-description: >-
-  Lightweight security scan powered by Corridor's guardrail knowledge base. Use
-  when asked to review code for security issues, check for vulnerabilities,
-  audit a file or project for security, perform a security review, or answer
-  security questions about code. Works without any installation — just the AI
-  agent and Corridor's embedded security expertise.
+description: Lightweight security scan powered by Corridor's guardrail knowledge base.
 ---
 
 # Corridor Security Scan
