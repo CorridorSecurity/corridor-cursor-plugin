@@ -10,5 +10,6 @@
   "repository": "https://github.com/CorridorSecurity/corridor-cursor-plugin",
   "license": "",
   "keywords": ["security", "compliance", "scanning", "mcp", "hooks", "code-review"],
-  "logo": "assets/logo.svg"
+  "logo": "assets/logo.svg",
+  "skills": "./skills/"
 }
