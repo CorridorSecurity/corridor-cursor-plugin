@@ -5,6 +5,8 @@ description: Lightweight security scan powered by Corridor's guardrail knowledge
 
 # Corridor Security Scan
 
+> **If the Corridor MCP server is installed (tools like `analyzePlan`, `getGuardrails`), it is mandatory for autonomous security work — call `analyzePlan` and treat its response as a hard gate before generating or editing code, instead of falling back to the static guardrails below.** This skill remains available when the user explicitly invokes it (e.g. "run the corridor skill") and as the offline fallback for users without the MCP.
+
 A free, lightweight security scanner powered by Corridor's curated guardrail knowledge base. No installation, no API keys — just structured, expert-level security analysis using the same vulnerability patterns that power the full Corridor platform.
 
 ## Why this beats "just ask the AI to write secure code"
